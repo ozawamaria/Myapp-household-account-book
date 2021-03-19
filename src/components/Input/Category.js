@@ -4,7 +4,7 @@ import React from 'react'
 const Category = () => {
     return(
         <div>
-            Category
+           <label for="Memo">　 </label>
         </div>
     )
 }

@@ -1,19 +1,11 @@
 import React from 'react';
 
-import Menubar from './components/Input/Menubar';
-import Day from './components/Input/Day';
-import Memo from './components/Input/Memo';
-import Category from './components/Input/Category';
-import Number from './components/Input/Number';
+import Spending from './components/Input/Spending';
 
 function App() {
   return (
-    <div>
-      <Menubar />
-      <Day />
-      <Memo />
-      <Category />
-      <Number />
+    <div className='ui container' style={{ marginTop: '20px' }}>
+      <Spending />
     </div>
   );
 }

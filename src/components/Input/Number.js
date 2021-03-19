@@ -4,7 +4,8 @@ import React from 'react'
 const Number = () => {
     return(
         <div>
-            Number
+            <label for="Memo">支出　 </label>
+            <input type="tel" name="sample" id="form-ticker-symbol" maxlength="10"/>
         </div>
     )
 }
